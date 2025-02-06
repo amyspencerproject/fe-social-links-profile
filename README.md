@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Github Repo URL: [QR Code Repo](https://github.com/amyspencerproject/qr-code)
-- Live Site URL: [QR Code Page](https://amyspencerproject.github.io/qr-code/)
+- Github Repo URL: [Social Links Profile Repo](https://github.com/amyspencerproject/fe-social-links-profile)
+- Live Site URL: [Social Links Profile](https://amyspencerproject.github.io/fe-social-links-profile/)
 
 ## My process
 

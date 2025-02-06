@@ -76,6 +76,45 @@ select {
 
 /* ========================= Base Styles ========================= */
 
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/Inter-VariableFont_slnt,wght.ttf");
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  display: grid;
+  place-content: center;
+  background-color: hsl(0, 0%, 8%);
+
+  font-family: Arial, sans-serif;
+  color: white;
+}
+p {
+  font-size: 0.875rem;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.card-container {
+  display: flex;
+  flex-flow: column nowrap;
+  /* justify-items: center; */
+  /* align-items: center; */
+  background-color: hsl(0, 0%, 12%);
+}
+
 /* ========== Footer ========== */
 
 footer {
