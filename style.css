@@ -76,6 +76,15 @@ select {
 
 /* ========================= Base Styles ========================= */
 
+/* ======= CSS Variables ======= */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(75, 94%, 57%);
+  --lt-grey: hsl(0, 0%, 20%);
+  --md-grey: hsl(0, 0%, 12%);
+  --drk-grey: hsl(0, 0%, 8%);
+}
+
 @font-face {
   font-family: "Inter";
   src: url("./assets/Inter-VariableFont_slnt,wght.ttf");
@@ -85,10 +94,10 @@ select {
 body {
   display: grid;
   place-content: center;
-  background-color: hsl(0, 0%, 8%);
+  background-color: var(--drk-grey);
 
   font-family: Arial, sans-serif;
-  color: white;
+  color: var(--white);
 }
 p {
   font-size: 0.875rem;
@@ -99,7 +108,7 @@ li {
 }
 
 ul {
-  background-color: hsl(0, 0%, 20%);
+  background-color: var(--lt-grey);
   text-align: center;
 }
 
@@ -111,8 +120,14 @@ ul {
   display: flex;
   flex-flow: column nowrap;
   /* justify-items: center; */
-  /* align-items: center; */
-  background-color: hsl(0, 0%, 12%);
+  align-items: center;
+  background-color: var(--md-grey);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
 }
 
 /* ========== Footer ========== */
