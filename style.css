@@ -105,15 +105,24 @@ p {
 
 li {
   list-style: none;
+  width: 100%;
 }
 
 ul {
   background-color: var(--lt-grey);
   text-align: center;
+  font-weight: 700;
+  padding: 1rem 0;
+  border-radius: 8px;
+  /* width: 100%; */
 }
 
 .location {
   color: hsl(75, 94%, 57%);
+}
+
+.title {
+  margin: 1rem 0 0.5rem 0;
 }
 
 .card-container {
@@ -122,6 +131,10 @@ ul {
   /* justify-items: center; */
   align-items: center;
   background-color: var(--md-grey);
+  width: 327px;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  margin: 7.3rem 0;
 }
 
 .profile-img {
