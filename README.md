@@ -25,31 +25,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screen-shots/screenshot.png)
+![](./screen-shots/screenshot-hover.png)
 
 ### Links
 
 - Github Repo URL: [Social Links Profile Repo](https://github.com/amyspencerproject/fe-social-links-profile)
 - Live Site URL: [Social Links Profile](https://amyspencerproject.github.io/fe-social-links-profile/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS Variables
-- CSS Grid
 - Mobile-first workflow
-
-### What I learned
-
--
-
-### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
