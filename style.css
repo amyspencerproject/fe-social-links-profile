@@ -96,39 +96,28 @@ body {
   place-content: center;
   background-color: var(--drk-grey);
 
-  font-family: Arial, sans-serif;
+  font-family: "Inter";
   color: var(--white);
 }
-p {
-  font-size: 0.875rem;
-}
 
-ul {
+.links {
   list-style: none;
   width: 100%;
   padding: 0;
 }
 
-li {
+.links-item {
   background-color: var(--lt-grey);
   text-align: center;
   font-weight: 700;
-  padding: 1rem 0;
+  padding: 0.75rem 0;
   border-radius: 8px;
   margin: 1rem 0;
 }
 
-li:hover {
+.links-item:hover {
   background-color: var(--green);
   color: var(--lt-grey);
-}
-
-.location {
-  color: hsl(75, 94%, 57%);
-}
-
-.title {
-  margin: 1rem 0 0.5rem 0;
 }
 
 .card-container {
@@ -147,6 +136,20 @@ li:hover {
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
+}
+
+.name {
+  margin: 1rem 0 0 0;
+  font-weight: 600;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  font-size: 0.875rem;
 }
 
 /* ========== Footer ========== */
